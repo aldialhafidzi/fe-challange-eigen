@@ -53,6 +53,8 @@ function DetailArticle({ slug }: { slug?: string }) {
 
     return (
         <>
+            <title>{detail?.title}</title>
+
             <Breadcrumb
                 items={[
                     {
